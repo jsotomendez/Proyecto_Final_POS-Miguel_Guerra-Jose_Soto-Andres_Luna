@@ -10,6 +10,7 @@ namespace Proyecto_Final.Application.Product
     {
         Task<IEnumerable<Product>> GetAsync();
         Task<Product> GetByIdAsync(Guid productId);
+
         Task SaveAsync(Product product);
     }
 }
